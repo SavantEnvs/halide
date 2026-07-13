@@ -1,0 +1,6 @@
+project: savantenvs/halide
+target: build-halide-h
+
+cmds:
+  - cmd: /mayhem/fuzz_build_halide_h
+    libfuzzer: true

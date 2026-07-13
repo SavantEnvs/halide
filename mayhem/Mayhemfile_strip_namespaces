@@ -1,0 +1,6 @@
+project: savantenvs/halide
+target: strip-namespaces
+
+cmds:
+  - cmd: /mayhem/fuzz_strip_namespaces
+    libfuzzer: true
