@@ -1,0 +1,7 @@
+# origin: https://app.mayhem.security/mayhemheroes/halide/build-halide-h/9
+project: savantenvs/halide
+target: build-halide-h-buggy-mhh-run-9
+
+cmds:
+  - cmd: /mayhem/fuzz_build_halide_h
+    libfuzzer: true
